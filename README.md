@@ -1,2 +1,2 @@
-MVC01 - Servlet 중심
-MVC02 - 
+MVC01 - Servlet
+MVC02 - JSP
