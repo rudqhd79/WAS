@@ -148,11 +148,8 @@
              Documentation at: /docs/config/valve.html
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
-		<!-- path는 실제 인터넷 상 경로, docBase는 webapp의 경로 (경로는 webapp properties에서 경로를 가져 올 수 있다) -->
-		<Context docBase="C:\eGovFrame-3.10.0\workspace.edu\WEB\webapp" path="/web"/>
-		<!-- Context를 자동으로 추가하려면 Servers => add or remove에 프로젝트를 추가한다 -->
-		<!-- reloadable은 서버실행 상태로 저장을하면 다시 서버가 자동으로 재실행된다 -->
-       <Context docBase="MVC01" path="/MVC01" reloadable="true" source="org.eclipse.jst.jee.server:MVC01"/></Host>
+
+      <Context docBase="MVC02" path="/MVC02" reloadable="true" source="org.eclipse.jst.jee.server:MVC02"/></Host>
     </Engine>
   </Service>
 </Server>
